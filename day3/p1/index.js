@@ -1,5 +1,5 @@
 let fs = require('fs-extra')
-let map = fs.readFileSync('../../common/trees.txt').toString().split('\n')
+let map = fs.readFileSync('../trees.txt').toString().split('\n')
 let [multiplier, trees, index] = [1, 0, 3]
 
 for (let i = 1; i < map.length; i++) {

@@ -1,5 +1,5 @@
 let fs = require('fs-extra')
-let map = fs.readFileSync('../../common/passport.txt').toString().split('\n\n')
+let map = fs.readFileSync('../passport.txt').toString().split('\n\n')
 let correct = 0
 
 map.forEach(str => {

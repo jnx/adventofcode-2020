@@ -1,5 +1,5 @@
 let fs = require('fs-extra')
-let data = fs.readFileSync('../../common/day5.data.txt').toString().split('\n')
+let data = fs.readFileSync('../day5.data.txt').toString().split('\n')
 
 const seats = []
 for (let i = 0; i < data.length; i++) {

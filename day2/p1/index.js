@@ -1,6 +1,6 @@
 const fs = require('fs-extra')
 
-let passwords = fs.readFileSync('../../common/passwords.txt').toString()
+let passwords = fs.readFileSync('../passwords.txt').toString()
 passwords = passwords.split('\n')
 
 const ruleChecker = (password, letter, ruleset) => {

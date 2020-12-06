@@ -1,6 +1,6 @@
 const fs = require('fs-extra')
 
-let data = fs.readFileSync('../../common/data.txt').toString()
+let data = fs.readFileSync('../data.txt').toString()
 data = data.split('\n')
 
 let sum

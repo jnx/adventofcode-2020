@@ -1,5 +1,5 @@
 let fs = require('fs-extra')
-let map = fs.readFileSync('../../common/trees.txt').toString().split('\n')
+let map = fs.readFileSync('../trees.txt').toString().split('\n')
 
 let totalTrees = [
   calculateTrees(1, 1),
